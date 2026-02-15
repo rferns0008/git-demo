@@ -1,1 +1,2 @@
+hange from featureA branch.
 Change from featureB branch.
