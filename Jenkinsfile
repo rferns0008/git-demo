@@ -1,9 +1,9 @@
 pipeline {
-	agent: any
+	agent any
 	stages {
 	       stage ("code cloning") {
 		    steps {
-			git clone "https://github.com/rferns0008/git-demo.git"
+			git 'https://github.com/rferns0008/git-demo.git'
 			echo "Cloning the code"
 		    }
 	       }
